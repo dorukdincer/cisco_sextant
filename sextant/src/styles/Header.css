@@ -1,0 +1,11 @@
+.website-header {
+    margin: 0;
+    padding: 12px;
+    color: 	#FFFFFF;
+    background-color: #009edc;
+}
+
+.header-title {
+    font-size: 24px;
+    margin: 10px;
+}
