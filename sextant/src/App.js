@@ -1,5 +1,6 @@
 import Banner from './components/Banner';
 import Getip from './components/Getip';
+import Latency from './components/Latency';
 import './styles/App.css';
 
 function App() {
@@ -9,12 +10,8 @@ function App() {
       <section className='content'>
         <Getip type='4'/>
         <Getip type='6'/>
-        <Getip type='4'/>
-        <Getip type='6'/>
-        <Getip type='4'/>
-        <Getip type='5'/>
-        <Getip type='6'/>
-        <Getip type='7'/>
+        <Latency />
+
       </section>
     </div>
   );
