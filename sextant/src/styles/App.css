@@ -5,8 +5,10 @@
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-flow: wrap;
   justify-content: center;
+  align-items: center;
   margin: 30px;
   gap: 30px;
 }

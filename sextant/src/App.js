@@ -9,6 +9,12 @@ function App() {
       <section className='content'>
         <Getip type='4'/>
         <Getip type='6'/>
+        <Getip type='4'/>
+        <Getip type='6'/>
+        <Getip type='4'/>
+        <Getip type='5'/>
+        <Getip type='6'/>
+        <Getip type='7'/>
       </section>
     </div>
   );

@@ -16,7 +16,7 @@ export default function Getip({ type }) {
 
     return (
         <div>
-            <Exhibit title={`IPv${type}`} paragraph={`${ip_address}`} />
+            <Exhibit title={`Public IPv${type} Adress`} paragraph={ip_address ? `${ip_address}` : 'Loading...'} />
         </div>
     );
 }
