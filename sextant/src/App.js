@@ -1,5 +1,5 @@
 import Banner from './components/Banner';
-import Exhibit from './components/Exhibit';
+import Getip from './components/Getip';
 import './styles/App.css';
 
 function App() {
@@ -7,10 +7,8 @@ function App() {
     <div className="App">
       <Banner />
       <section className='content'>
-        <Exhibit />
-        <Exhibit />
-        <Exhibit />
-        <Exhibit />
+        <Getip type='4'/>
+        <Getip type='6'/>
       </section>
     </div>
   );
