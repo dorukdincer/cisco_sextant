@@ -1,7 +1,7 @@
 import React from 'react';
-import "../styles/Header.css"
+import "../styles/Banner.css"
 
-export default function Header() {
+export default function Banner() {
     return (
         <header className='website-header'>
             <h1 className='header-title'>SEXTANT</h1>

@@ -1,7 +1,7 @@
 import React from 'react';
-import "../styles/Card.css"
+import "../styles/Exhibit.css"
 
-export default function Card() {
+export default function Exhibit() {
     return (
         <div className='card-wrap'>
             <h1 className='card-title'>Lorem ipsum</h1>

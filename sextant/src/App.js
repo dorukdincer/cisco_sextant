@@ -1,16 +1,16 @@
-import Card from './components/Card';
-import Header from './components/Header';
+import Banner from './components/Banner';
+import Exhibit from './components/Exhibit';
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Banner />
       <section className='content'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Exhibit />
+        <Exhibit />
+        <Exhibit />
+        <Exhibit />
       </section>
     </div>
   );
